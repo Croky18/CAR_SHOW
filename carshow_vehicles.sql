@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `carshow_vehicles` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `model` VARCHAR(50) NOT NULL,
+  `x` FLOAT NOT NULL,
+  `y` FLOAT NOT NULL,
+  `z` FLOAT NOT NULL,
+  `w` FLOAT NOT NULL,
+  PRIMARY KEY (`id`)
+);
