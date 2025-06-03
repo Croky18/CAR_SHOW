@@ -223,7 +223,7 @@ RegisterNetEvent('carshow:addVehiclePrompt', function()
                 isRequired = true
             },
             {
-                text = "Selling price (€/$)",
+                text = "Selling price (€)",
                 name = "price",
                 type = "number",
                 isRequired = true
@@ -298,7 +298,7 @@ function openOxMenu()
                 onSelect = function()
                     local input = lib.inputDialog('New Showroom Vehicle', {
                         { type = 'input', label = 'Vehicle Model', required = true },
-                        { type = 'number', label = 'Selling price (€/$)', required = true }
+                        { type = 'number', label = 'Selling price (€)', required = true }
                     })
                     if input then
                         local model = input[1]
