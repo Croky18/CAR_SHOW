@@ -24,9 +24,9 @@ Beheer voertuigen, toon prijzen boven voertuigen en beheer alle voertuigen via e
 ---
 ## ✨ COMMAND
 ```bash
- /carshowmenu ##for cardealer job
+ /carshowmenu for cardealer job
 
-/cartest ##this is for players
+/cartest  this is for players
 
 ```
 
